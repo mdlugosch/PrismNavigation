@@ -1,0 +1,88 @@
+﻿<UserControl x:Class="AddInB.Views.AddInBView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:AddInB.Views"
+             mc:Ignorable="d" 
+             d:DesignHeight="300" d:DesignWidth="300">
+    <Grid>
+        <ScrollViewer>
+            <TextBlock Background="White">
+            <LineBreak />
+            AddInB<LineBreak />
+            <LineBreak />
+            Das Gummibärchen aus wehrmedizinischer Perspektive<LineBreak />
+            <LineBreak />
+            Der wehrdienstleistende Gummibären betreuende Musterungs- bzw. Truppenarzt wird in der Praxis immer wieder mit <LineBreak />
+            Besonderheiten dieser Patientengruppe konfrontiert, die besondere Erfahrung und Wissen erfordern. Abgesehen von <LineBreak />
+            allgemeinmilitärischen Aspekten wie Probleme der Tarnung (Gummibären sind häufig leuchtfarben!), die hier jedoch <LineBreak />
+            beiseite gelassen werden sollen, tauchen immer wieder spezifische medizinische Probleme auf, die hier näher <LineBreak />
+            betrachtet werden sollen.
+            <LineBreak />
+            ASPEKTE BEI MUSTERUNG UND VERWENDUNGSFÄHIGKEIT <LineBreak />
+            <LineBreak />
+            Schon bei der Musterung ergibt sich das Problem der Wehrdienstfähigkeit. Da Gummibären in aller Regel unter 150 cm <LineBreak />
+            Körpergröße messen, stellt sich zunächst die Frage, ob sie überhaupt wehrdienstfähig sind. Nach ausführlichen <LineBreak />
+            Diskussionen in der Fachwelt kann man jedoch davon ausgehen, daß, da die geringe Körpergröße physiologisch ist und <LineBreak />
+            keinerlei Einschränkung für das Gummibärchen an sich bedeutet, eine generelle Wehrdienstunfähigkeit nicht gegeben <LineBreak />
+            ist. Gleiches gilt selbstverständlich auch für das geringe Körpergewicht.<LineBreak />
+            <LineBreak />
+            Allerdings stellt sich das Problem der Verwendungsausschlüsse aufgrund dieser Besonderheiten. So ist ein Gummibärchen <LineBreak />
+            generell als nicht tauglich für den Dienst im Wachbataillon anzusehen. Auch vom Pionierdienst ist ein Gummibärchen <LineBreak />
+            auszuschließen. Was die Verwendungsfähigkeit im Sanitäts- oder Musikdienst betrifft, so muß berücksichtigt werden, <LineBreak />
+            daß ein genereller Ausschluß hier nicht notwendig ist. Zwar kann ein Gummibärchen aufgrund seiner fehlenden Wirbelsäule <LineBreak />
+            zwar im Patiententransport nicht eingesetzt werden, eignet sich aber hervorragend zur Patientenbetreuung, insbesondere <LineBreak />
+            diabetischer Patienten, die zu Hypoglykämien neigen. Insbesondere unter diesem Aspekt ist auch eine Verwendung im <LineBreak />
+            Schockraum eines Truppenverbandplatzes akzeptabel.<LineBreak />
+            <LineBreak />
+            Aufgrund ihrer Konsistenz sind Gummibären jedoch besonders prädestiniert für die Verwendung in der ABC-Abwehr. Insbesondere <LineBreak />
+            auch unter psychologischen Gesichtspunkten dürfte dieser Arbeitsbereich das non-plus-ultra bei der Einplanung und Verwendung <LineBreak />
+            wehrdienstleistender Gummibären darstellen. Die unmittelbare Näche von ABC-Schutzmasken, die ebenfalls aus Gummi sind, stärkt <LineBreak />
+            das Kameradschaftsgefühl und sorgt für eine ausgeglichene Psyche, sowie eine im Vergleich zum durchschnittlichen <LineBreak />
+            Wehrdienstleistenden deutlich höhere Motivation.<LineBreak />
+            <LineBreak />
+            Einschränkend muß allerdings strikt darauf geachtet werden, daß Sicherheitsmaßnahmen bei der Dekontamination von Gummibären <LineBreak />
+            unerläßlich sind, da bereits Fälle von Aufquellen, Farbverblassung, bis hin zum Geschmacksverlust beschrieben wurden, die nach <LineBreak />
+            einschlägigen Forschungen auf die Wasseranwendung im Rahmen der Dekontaminationsmaßnahmen zurückzuführen sind.<LineBreak />
+            <LineBreak />
+            Trotz oder gerade aufgrund der fehlenden Wirbelsäule (was aber analog zur geringen Größe als physiologisch zu werten ist und <LineBreak />
+            von daher keinen generellen Ausschluß vom Wehrdienst darstellt) zeigen sich Gummibären auch für den Fallschirmsprungdienst als <LineBreak />
+            hervorragend geeignet. Allerdings neigen sie beim Aufschlagen aus größerer Höhe zum sog. "bouncing", einem mehrfachen wieder-hinaufschnellen. <LineBreak />
+            Da das bouncing im allgemeinen von einschlägigen Geräuschen ("pdoiiing...pdoiiiing...") begleitet wird, sowie eine Gefährdung von <LineBreak />
+            nachfolgenden Kameraden gegeben ist, sollte aus allgemeinmilitärischen und Gründen der Sicherheit von einer diesbezüglichen <LineBreak />
+            Verwendung abgesehen werden.<LineBreak />
+            <LineBreak />
+            Ausgenommen hiervon wäre allerdings die Verwendung als Einzelkämpfer, wobei allerdings die mangelhafte Tarnung beim Absetzvorgang <LineBreak />
+            aufgrund des Bouncings zu berücksichtigen wäre.<LineBreak />
+            <LineBreak />
+            TRUPPENÄRZTLICHE BETREUUNG VON GUMMIBÄRCHEN <LineBreak />
+            <LineBreak />
+            Obwohl Gummibärchen eine außerordentlich robuste Gesundheit besitzen und auch neurochirurgische Eingriffe problemlos durch den <LineBreak />
+            einschlägig erfahrenen Truppenarzt vorgenommen werden können (vgl. Klaus-Martin Klein: "Neurochirurgische Eingriffe am Gummibärchen"), <LineBreak />
+            kommt es in der Praxis immer wieder zu Gummibärchen-spezifischen Erkrankungen, auf die der Truppenarzt schnell und sachgerecht reagieren muß.<LineBreak />
+            <LineBreak />
+            Insbesondere bei kalter Witterung kann es schnell zur Verhärtung des Gummibären kommen, die bei unsachgemäßer Behandlung (Biegen!) <LineBreak />
+            zu dauerhaften Schäden (Einrisse der Cutis bis hin zur Komplettfraktur des Patienten bei extrem kalter Witterung) führen kann. <LineBreak />
+            Analog zur Behandlung der Unterkühlung beim Humanpatienten ist in diesen Fällen ein vorsichtiges Verbringen des Gummibärchens <LineBreak />
+            in eine geschützte Umgebung, sowie ein langsames Aufwärmen desselben Therapie der Wahl. Abstand genommen werden sollte allerdings <LineBreak />
+            vom Einflößen heißer, gezuckerter Getränke, was einerseits zu Verformungen, Geschmacks- und Farbverlust, andererseits auch zum <LineBreak />
+            hyperglykämischen Koma führen kann.<LineBreak />
+            <LineBreak />
+            Sowohl Erkältungserkrankungen, als auch Sportverletzungen treten beim Gummibären in der Truppe in der Praxis so gut wie nie auf. <LineBreak />
+            Wesentlich bedenklicher ist ein Phänomen, das als "Übungsplatz-Schwindsucht" bezeichnet wird. Insbesondere bei Aufenthalten auf <LineBreak />
+            Übungsplätzen kommt es immer wieder zum Verschwinden ganzer Gummibären-Züge. Ein Zusammenhang mit den erhöhten Zuckerwerten der <LineBreak />
+            sich gleichzeitig auf den Übungsplätzen aufhaltenden humanen Kameraden wird noch diskutiert. Der Autor weist in diesem Zusammenhang <LineBreak />
+            darauf hin, daß Fälle von Übungsplatz-Schwindsucht meldepflichtig sind. Zwar liegt noch kein Hinweis darauf vor, daß die Erkrankung <LineBreak />
+            infektiös sein könnte, aufgrund der immer wieder auftretenden Endemien ist aber besondere Vorsicht geboten. Gemäß Anweisung BMVg <LineBreak />
+            sind alle Gummibären nach möglichkeit von Übungsplatzaufenthalten zu befreien, solange diese nicht unbeding notwendig <LineBreak />
+            (Vorbereitung auf Auslandseinsätze) sind.<LineBreak />
+            <LineBreak />
+            ZUSAMMENFASSUNG <LineBreak />
+            <LineBreak />
+            Insgesamt kann man sagen, daß Gummibärchen mit einigen generellen Einschränkungen durchaus als wehrdienstfähig einzustufen sind.<LineBreak /> 
+            Die truppenärztliche Betreuung stellt sich unkompliziert dar, wobei allerdings einige wenige Besonderheiten zu beachten sind.<LineBreak />
+        </TextBlock>
+       </ScrollViewer>
+    </Grid>
+</UserControl>

@@ -6,6 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
+using Microsoft.Practices.Prism.Modularity;
 
 namespace PrismNavigation.MVVM
 {
@@ -15,23 +16,38 @@ namespace PrismNavigation.MVVM
         {
             return Container.GetExportedValue<ShellWindow>();
         }
+
+        protected override IModuleCatalog CreateModuleCatalog()
+        {
+            return new ConfigurationModuleCatalog();
+        }
+
         protected override void ConfigureAggregateCatalog()
         {
-            var assemblyCatalog = new AssemblyCatalog(typeof(MyBootstrapper).Assembly);
-            AggregateCatalog.Catalogs.Add(assemblyCatalog);
+ 
 
-            /*
-            assemblyCatalog = new AssemblyCatalog(typeof(AddInA.ModuleA).Assembly);
-            AggregateCatalog.Catalogs.Add(assemblyCatalog);
+            this.AggregateCatalog.Catalogs.Add(new AssemblyCatalog(typeof(MyBootstrapper).Assembly));
+            //this.AggregateCatalog.Catalogs.Add(new AssemblyCatalog(typeof(AddInA.ModuleA).Assembly));
+            this.AggregateCatalog.Catalogs.Add(new AssemblyCatalog(typeof(AddInB.ModuleB).Assembly));
 
-            assemblyCatalog = new AssemblyCatalog(typeof(AddInB.ModuleB).Assembly);
-            AggregateCatalog.Catalogs.Add(assemblyCatalog);
-            */
             base.ConfigureAggregateCatalog();
+
+            //var assemblyCatalog = new AssemblyCatalog(typeof(MyBootstrapper).Assembly);
+            //AggregateCatalog.Catalogs.Add(assemblyCatalog);
+
+            //assemblyCatalog = new AssemblyCatalog(typeof(AddInA.ModuleA).Assembly);
+
+            //AggregateCatalog.Catalogs.Add(assemblyCatalog);
+
+            //assemblyCatalog = new AssemblyCatalog(typeof(AddInB.ModuleB).Assembly);
+            //AggregateCatalog.Catalogs.Add(assemblyCatalog);
+
+            //base.ConfigureAggregateCatalog();
         }
 
         protected override void InitializeShell()
         {
+            base.InitializeShell();
             Application.Current.MainWindow = (ShellWindow)Shell;
             Application.Current.MainWindow.Show();
         }

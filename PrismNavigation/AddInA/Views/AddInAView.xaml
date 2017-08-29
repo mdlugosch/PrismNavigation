@@ -1,0 +1,33 @@
+﻿<UserControl x:Class="AddInA.Views.AddInAView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:AddInA.Views"
+             mc:Ignorable="d" 
+             d:DesignHeight="300" d:DesignWidth="300">
+    <Grid>
+        <TextBlock Background="White">
+            <LineBreak />
+            AddInA<LineBreak />
+            <LineBreak />
+            Sie haben das Ende des Internets erreicht.
+            <LineBreak />
+            Sie haben das Ende des Internets erreicht. Öffnen Sie sich ein kaltes Bier<LineBreak /> 
+            oder machen Sie eine Flasche Wein auf und lehnen Sie sich zurück.<LineBreak /> 
+            <LineBreak />
+            Bitte versuchen Sie folgendes:<LineBreak />
+            •Schauen Sie nach, ob Ihre Frau/Freundin eventuell noch da ist.<LineBreak />
+            •Gehen Sie nach draußen an die frische Luft. Dazu müssen Sie nur die Haustür,<LineBreak /> 
+             das ist da wo immer der Pizzabote klingelt - öffnen und hindurch gehen.<LineBreak />
+            •Diese Dinger mit dem vielen Papier zwischen zwei Deckeln nennt man Bücher,<LineBreak /> 
+             die kann man lesen. Nur anklicken können Sie nichts.<LineBreak />
+            •Vergessen Sie Ihre Facebook-Friends, treffen sie echte Freunde.<LineBreak />
+            •Vergessen Sie Twitter, schicken Sie doch mal eine Postkarte.<LineBreak />
+            •Vergessen Sie YouTube, im Wohnzimmer steht ein Gerät, dass Fernseher heisst.<LineBreak />
+            •Vergessen Sie iTunes, schauen Sie im Keller nach, ob da noch ein paar Schallplatten stehen,<LineBreak /> 
+             die Sie lange nicht mehr gehört haben.<LineBreak />
+            •Schalten Sie Ihren Computer jetzt ab. Das geht, auch wenn's Überwindung kostet!<LineBreak />
+        </TextBlock>
+    </Grid>
+</UserControl>

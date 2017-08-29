@@ -102,6 +102,10 @@
       <DependentUpon>ShellWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="Styles.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs">
@@ -131,9 +135,7 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Images\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <ProjectReference Include="..\AddInA\AddInA.csproj">
       <Project>{219d6279-d478-4bc7-b649-28f12dd85d72}</Project>
@@ -143,6 +145,18 @@
       <Project>{11e0ec7d-f618-4a14-aef6-b51ba8d22455}</Project>
       <Name>AddInB</Name>
     </ProjectReference>
+    <ProjectReference Include="..\PrismNavigation.Infrastructure\PrismNavigation.Infrastructure.csproj">
+      <Project>{d4331484-9a17-4235-9a84-10f737f1857a}</Project>
+      <Name>PrismNavigation.Infrastructure</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\ModuleA.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\ModuleB.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
