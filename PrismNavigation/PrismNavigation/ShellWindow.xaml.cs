@@ -60,9 +60,6 @@ namespace PrismNavigation
         }
 
         private void Window_Loaded(object sender, RoutedEventArgs e)
-        {
-            //this.ModuleManager.LoadModuleCompleted += ModuleManager_LoadModuleCompleted;
-            //this.regionManager.RequestNavigate(RegionNames.MainContentRegion, StartViewUri, CheckForError);
-        }
+        { }
     }
 }

@@ -24,25 +24,8 @@ namespace PrismNavigation.MVVM
 
         protected override void ConfigureAggregateCatalog()
         {
- 
-
-            this.AggregateCatalog.Catalogs.Add(new AssemblyCatalog(typeof(MyBootstrapper).Assembly));
-            //this.AggregateCatalog.Catalogs.Add(new AssemblyCatalog(typeof(AddInA.ModuleA).Assembly));
-            this.AggregateCatalog.Catalogs.Add(new AssemblyCatalog(typeof(AddInB.ModuleB).Assembly));
-
-            base.ConfigureAggregateCatalog();
-
-            //var assemblyCatalog = new AssemblyCatalog(typeof(MyBootstrapper).Assembly);
-            //AggregateCatalog.Catalogs.Add(assemblyCatalog);
-
-            //assemblyCatalog = new AssemblyCatalog(typeof(AddInA.ModuleA).Assembly);
-
-            //AggregateCatalog.Catalogs.Add(assemblyCatalog);
-
-            //assemblyCatalog = new AssemblyCatalog(typeof(AddInB.ModuleB).Assembly);
-            //AggregateCatalog.Catalogs.Add(assemblyCatalog);
-
-            //base.ConfigureAggregateCatalog();
+            this.AggregateCatalog.Catalogs.Add(new AssemblyCatalog(typeof(MyBootstrapper).Assembly));         
+            base.ConfigureAggregateCatalog();        
         }
 
         protected override void InitializeShell()
